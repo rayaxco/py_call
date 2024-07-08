@@ -52,4 +52,15 @@ def forloops():
     loop_dict(dicti)
     loop_set({8,5,2,1,4,6,3,7,9})
 
-forloops()
+#forloops()
+
+def whileloops():
+    def while_true(a):
+
+        i=0
+        while i != len(a): #expression i!=len(a) is true
+            print(a[i])
+            i=i+1
+
+    while_true([2,14,15,1,6,8,9,8,7,2,3,6,4,1])
+whileloops()

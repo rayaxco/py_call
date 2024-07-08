@@ -1,4 +1,4 @@
-def loops():
+def forloops():
     #this function loops over strings
     def loop_string(st):
         for item in st:
@@ -24,12 +24,7 @@ def loops():
         print("")
 
     #this function loops over a dictionary
-    def loop_dict():
-        dic={
-            'name':'peter',
-            'partner':'olivia',
-            'father':'walter',
-            }
+    def loop_dict(dic):
         for key,value in dic.items():
             print(key,'\t',value)
 
@@ -49,6 +44,12 @@ def loops():
     loop_list([1,2,3,4,5,6,7,8,9,10])
     loops_partially([1,2,3,4,5,6,7,8,9,10])
     loopstuple((1,2,1,4,5,6,56,25))
-    loop_dict()
+    dicti = {
+        'name': 'peter',
+        'partner': 'olivia',
+        'father': 'walter',
+    }
+    loop_dict(dicti)
     loop_set({8,5,2,1,4,6,3,7,9})
-loops()
+
+forloops()

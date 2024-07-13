@@ -62,5 +62,5 @@ def whileloops():
             print(a[i])
             i=i+1
 
-    while_cond_true([2,14,15,1,13,6,8,9,8,7,2,3,6,4,1])
+    while_cond_true([2,14,15,1,13,11,6,8,9,8,7,2,3,6,4,1])
 whileloops()

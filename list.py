@@ -20,7 +20,8 @@ def rev_list():
         for item in li:
             print(item)
             if item == True:
-                item = False
+                li.remove(True)
+                print(li)
 
     def datatype_of_mix(li):
         li.append('gracias') #adds a single element to the end of the list
@@ -46,9 +47,9 @@ def rev_list():
     lis=[2,4,5,6,2,5,8,3,1,5,46,48,79,75]
     #access(lis)
     mix=[1,10,10.5,'daniella',True]
-    mixed(mix)
+    #mixed(mix)
     mutable(mix)
     #different datatypes can be stored inside a list
-    datatype_of_mix(mix)
-    list_functions(mix)
+    #datatype_of_mix(mix)
+    #list_functions(mix)
 rev_list()

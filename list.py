@@ -10,5 +10,5 @@ def rev_list(li):
     for index in range(0,len(li),1):
         print(index,':',li[index],'\t',end="")
 
-lis=[2,4,5,6,2,5,8,3,1,5,46,48,75]
+lis=[2,4,5,6,2,5,8,3,1,5,46,48,79,75]
 rev_list(lis)

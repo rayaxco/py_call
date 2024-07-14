@@ -37,7 +37,7 @@ def dictionary():
         print(user)
         print(('user','destroyer') in user.keys())
         print(user['user4']['type'][0:2]) #use  square brackets when using nested dictionaries
-
+        print(user[user4].get('fname'))
     dic = {
         'peter bishop': 'olivia bishop',
         'walter bishop': 'elizabeth bishop',

@@ -9,4 +9,13 @@ def tuple():
     print(tup.count(True))
     print(tup.count('word'))
 
+    print(12.5 in tup) #True id 12.5 is in the tuple
+    a,b,c,*others,d=(1,2,3,4,5,6,7)
+    print(a)
+    print(b)
+    print(c)
+    print(others)
+    print(d)
+
+
 tuple()

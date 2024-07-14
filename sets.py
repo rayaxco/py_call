@@ -6,7 +6,7 @@ def sets():
         print(st) #even if there are duplicates it is automatically removed and made unique
         my_set={1,2,3,4,5,6,7,8,9}
         your_set={7,8,9,10,11,12,13}
-        his_set={14,15,16,17,18,19,20}
+        his_set={14,15,16,17,18,19,20,21}
 
         print(my_set.difference(your_set))
         print(your_set.difference(my_set)) #values unique in your_set in comparison to my set

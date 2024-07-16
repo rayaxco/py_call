@@ -40,6 +40,13 @@ def forloops():
         for i in st:
             print(i,' ',end="")
 
+    def enumerat():
+        stri='this is going to be the end of the world'
+
+        for index,item in enumerate(stri): #enumerate returns object items and its indexes
+            print(index,' : ',item)
+
+
     loop_string('this is a sentence')
     loop_list([1,2,3,4,5,6,7,8,9,10])
     loops_partially([1,2,3,4,5,6,7,8,9,10])
@@ -51,8 +58,10 @@ def forloops():
     }
     loop_dict(dicti)
     loop_set({8,5,2,1,4,6,3,7,9})
+    enumerat()
 
-#forloops()
+
+forloops()
 
 def whileloops():
     def while_cond_true(a):
@@ -63,4 +72,5 @@ def whileloops():
             i=i+1
 
     while_cond_true([2,14,15,1,13,11,6,8,9,8,7,2,3,6,4,1])
-whileloops()
+
+#whileloops()

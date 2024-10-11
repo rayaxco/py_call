@@ -42,3 +42,11 @@ pattern4=re.compile('string')
 d=pattern4.findall(string)
 print(d)
 #['string', 'string']
+
+pattern5=re.compile(r'(^[A-Za-z0-9+_.-]+@[a-zA-Z+_-]+\.[a-zA-z]+.[a-zA-Z]+$)')
+string5='ravy.pmr9465@gmail.com.au'
+gr=pattern5.search(string5)
+print(gr)
+print(gr.group())
+print(pattern5.match(string5))
+print(pattern5.findall(string5))
